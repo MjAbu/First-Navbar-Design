@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image{
+
+    background: url(image.jpg) no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+.navbar{
+
+    height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+.logo{
+
+    width: 160px;
+    height: auto;
+    padding: 20px 100px;
+
+}
+.navbar ul{
+
+    float: right;
+    margin-right: 100px;
+
+}
+.navbar ul li{
+
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    line-height: 65px;
+    
+    
+
+}
+.navbar ul li a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 6px 13px;
+    font-family: poppins light;
+  
+}
+
+.navbar ul li a:hover{
+        background: rgb(78, 78, 78);
+         border-radius: 2px;
+         font-size: 16px;
+         transition: 0.3s;
+         
+        
+}
+.header{
+
+    color: antiquewhite;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 50px;
+    font-family: poppins;
+   
+}
+.para1{
+    color: rgb(231, 215, 193);
+    position: absolute;
+    top: 48%;
+    left: 26%;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    font-family: poppins Light;
+
+}
+.btn{
+    background-color: chartreuse;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-family: poppins Medium;
+    border-radius: 5px;
+    border-style: hidden;
+
+}
+.btn:hover{
+    background-color: rgb(161, 72, 39);
+    color: white;
+    border: 0.2px solid white;
+    outline: none;
+    border-style: hidden;
+    transition: 0.3s;
+}
